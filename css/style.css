@@ -1,0 +1,96 @@
+html, body {
+    height: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 80px;
+}
+.container1 a {
+    text-decoration: none;
+    color: black;
+}
+.container1 button {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.container1 button a {
+    text-decoration: none;
+    color: white;
+}
+.container1 input {
+    width: 340px;
+    height: 30px;
+}
+.container1 input::placeholder {
+    font-size: 18px;
+}
+span {
+    font-size: 20px;
+}
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    background-color: black;
+}
+.container2 div a {
+    text-decoration: none;
+    color: black;
+}
+.box {
+    color: black;
+    margin-top: 30px;
+    background-color: white;
+    height: 25px;
+    padding: 4px;
+    border-radius: 10px;
+}
+.box1 {
+    background-color: #ddd;
+    height: 25px;
+    margin-top: 30px;
+    padding: 4px;
+    border-radius: 10px;
+}
+.box:hover {
+    background-color: #ddd;
+}
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box2 {
+    width: 200px;
+    height: 250px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.n {
+    font-size: 15px;
+}
+.e {
+    font-size: 15px;
+}
+.box2 h4 a {
+    color: black;
+}
+.footer {
+    height: 60px;
+    width: 100%;
+    background-color: darkslategray;
+}
+.footer h4 {
+    text-align: center;
+    padding-top: 20px;
+}
